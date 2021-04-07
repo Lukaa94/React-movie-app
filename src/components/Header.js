@@ -1,12 +1,26 @@
-import React from "react";
+import React,{ useState, useEffect } from "react";
 import logo from "../images/tmdb-logo.svg";
 import account_logo from "../images/account-logo.svg";
 import "../components/Header.css";
 
 
 function Header() {
+
+  const [header, setHeader] = useState(false);
+
+  const changeBcg = () =>{
+    if(window.scrollY >= 60){
+      setHeader(true)
+    }
+    else{
+      setHeader(false)
+    }
+  }
+
+  window.addEventListener('scroll', changeBcg);
+
   return (
-    <header>
+    <header className={header ? 'header active' : 'header'}>
       <nav className="navbar">
       <div>
         <img className="navbar-logo" src={logo} alt="tmdb" />
