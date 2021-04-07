@@ -1,5 +1,5 @@
 import React from "react";
-import Nav from "./components/Nav";
+import Nav from "./components/Header";
 import Movies from "./components/Movies";
 import "./App.css";
 import urlList from "./services/urlList";

@@ -1,0 +1,32 @@
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+    height: 80px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.navbar-logo{
+    width: 100px;
+}
+
+.navbar-links ul{
+    display: flex;
+}
+
+.navbar-links li{
+    list-style: none;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: white;
+}
+
