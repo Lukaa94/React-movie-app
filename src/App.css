@@ -4,21 +4,5 @@
   padding: 0;
 }
 
-h1{
-  color: white;
-  padding-left: 50px;
-}
 
-.Movie{
-  background-color: #222;
-}
 
-.movie-images{
-  display: flex;
-  width: 100%;
-  padding-left: 50px;
-}
-
-.movie-images img{
-  height: 200px;
-}
