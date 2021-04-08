@@ -1,16 +1,18 @@
-h1{
-    color: white;
-    padding-left: 50px;
-  }
-  
+
   .Movie{
     background-color: #222;
+  }
+
+  .movie-title{
+    color: white;
+    padding-left: 50px;
   }
   
   .movie-images{
     display: flex;
     justify-content: space-between;
     padding-left: 50px;
+    overflow: hidden;
   }
   
   .movie-images img{

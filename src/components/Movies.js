@@ -18,7 +18,7 @@ function Movies({ title, url }) {
 
   return (
     <div className="Movie">
-      <h1>{title}</h1>
+      <h1 className="movie-title">{title}</h1>
       <div className="movie-images">
         {movies.map((movie) => (
           <img
