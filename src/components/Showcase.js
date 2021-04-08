@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import "../components/Showcase.css";
 
 function Showcase() {
     return (
-        <div>
+        <div className="Showcase">
             
         </div>
     )

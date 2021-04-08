@@ -9,12 +9,18 @@ h1{
   
   .movie-images{
     display: flex;
-    width: 100%;
+    justify-content: space-between;
     padding-left: 50px;
-    overflow: hidden;
   }
   
   .movie-images img{
+    width: 100%;
     height: 200px;
     margin-right: 10px;
+    transition: transform 400ms;
+  }
+
+  .movie-images img:hover{
+    transform: scale(1.2, 1.3);
+    cursor: pointer;
   }
