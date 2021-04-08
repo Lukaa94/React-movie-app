@@ -16,8 +16,6 @@ function Movies({ title, url }) {
     fetchData();
   }, [url]);
 
-  console.log(movies);
-
   return (
     <div className="Movie">
       <h1>{title}</h1>
