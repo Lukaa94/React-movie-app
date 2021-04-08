@@ -1,9 +1,9 @@
 import React from "react";
+import urlList from "./services/urlList";
 import Nav from "./components/Header";
+import Showcase from "./components/Showcase";
 import Movies from "./components/Movies";
 import "./App.css";
-import urlList from "./services/urlList";
-import Showcase from "./components/Showcase";
 
 function App() {
   return (
