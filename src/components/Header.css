@@ -24,6 +24,11 @@
     margin-right: 50px;
 }
 
+.navbar-links{
+    text-shadow: 2px 1px 2px black;
+    font-weight: 700;
+}
+
 .navbar-links ul{
     display: flex;
 }
@@ -45,7 +50,8 @@
 }
 
 .navbar-links a:hover{
-    color: #999;
+    color: #01b4e4;
+    text-shadow: none;
 }
 
 .account-logo{
