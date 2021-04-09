@@ -32,11 +32,18 @@
 
 .showcase-text p{
     text-align: center;
-    padding: 20px 0px;
+    margin: 50px 0px;
     font-size: 18px;
     width: 50%;
     line-height: 24px;
+    overflow: hidden;
 }
+
+.limit-words{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+  }
 
 .showcase-btns{
     display: flex;
