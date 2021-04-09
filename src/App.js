@@ -10,8 +10,8 @@ function App() {
     <div className="App">
       <Nav />
       <Showcase />
-      <Movies title="popular" url={urlList.popular} />
-      <Movies title="top rated" url={urlList.topRated} />
+      <Movies title="Popular" url={urlList.popular} />
+      <Movies title="Top rated" url={urlList.topRated} />
       <Movies title="2020" url={urlList.year2020}/>
     </div>
   );

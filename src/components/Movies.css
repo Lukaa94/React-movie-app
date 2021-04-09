@@ -6,18 +6,20 @@
   .movie-title{
     color: white;
     padding-left: 50px;
+    font-size: 24px;
+    font-weight: 500;
   }
   
   .movie-images{
     display: flex;
     justify-content: space-between;
-    padding-left: 50px;
-    
+    padding: 20px 0px 40px 0px;
+    margin-left: 50px;
   }
   
   .movie-images img{
     width: 100%;
-    height: 200px;
+    height: 250px;
     margin-right: 10px;
     transition: transform 400ms;
   }
