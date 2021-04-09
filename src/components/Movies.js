@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import baseApi from "../services/baseApi";
-import "../components/Movie.css";
+import "../components/Movies.css";
 
 const imgUrl = "https://image.tmdb.org/t/p/original";
 
