@@ -7,6 +7,10 @@
     position: fixed;
     width: 100%;
     z-index: 1000;
+    background-image: 
+        linear-gradient(360deg,transparent,
+        rgba(24, 22, 22, 0.6), #222
+    );
 }
 
 .header.active{
