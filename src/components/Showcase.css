@@ -12,14 +12,67 @@
 
 .showcase-text{
     position: absolute;
-    top: 50%;
-    left: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
     color: white;
-    transform: translate(-50%,-50%);
-    text-align: center;
 }
 
 .showcase-text h1{
     text-transform: uppercase;
+    text-align: center;
     font-size: 40px;
+    font-weight: 700;
+    width: 50%;
+}
+
+.showcase-text p {
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 18px;
+    width: 50%;
+    line-height: 24px;
+}
+
+.showcase-btns{
+    display: flex;
+    justify-content: center;
+}
+
+.showcase-btns button{
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+
+.btn-play{
+    padding: 15px 40px;
+    margin-right: 20px;
+}
+
+.btn-play:hover{
+    background-color: #01b4e4;
+    color: white;
+}
+
+.btn-info{
+    padding: 15px 30px;
+    background-color: #222;
+    color: white;
+}
+
+.btn-info:hover{
+    background-color: #90cea1;
+}
+
+@media(max-width: 768px){
+    .showcase-text h1,.showcase-text p{
+        width: 90%;
+    }
 }
