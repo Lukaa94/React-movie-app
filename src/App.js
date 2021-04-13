@@ -1,6 +1,6 @@
 import React from "react";
 import urlList from "./services/urlList";
-import Nav from "./components/Header";
+import Header from "./components/Header";
 import Showcase from "./components/Showcase";
 import Movies from "./components/Movies";
 import "./App.css";
@@ -8,7 +8,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <Nav />
+      <Header />
       <Showcase />
       <Movies title="Popular" url={urlList.popular} />
       <Movies title="Top rated" url={urlList.topRated} />
