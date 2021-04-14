@@ -20,7 +20,7 @@ function Showcase() {
     }
     fetchData();
   }, []);
-  console.log(movies);
+
   /*img error*/
   return (
     <div className="Showcase">

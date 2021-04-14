@@ -53,9 +53,8 @@ function Movies({ title, url }) {
         }}
       >
         {movies.map((movie) => (
-          <SwiperSlide className="swiper-slide">
+          <SwiperSlide className="swiper-slide" key={movie.id}>
             <img
-              key={movie.id}
               src={`${imgUrl}${movie.poster_path}`}
               alt="img"
             />
