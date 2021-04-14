@@ -10,21 +10,23 @@
     font-weight: 500;
   }
   
-  .movie-images{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 0px 30px 0px;
-    margin-left: 50px;
-  }
-  
-  .movie-images img{
+  .swiper-container {
     width: 100%;
-    height: 250px;
-    margin-right: 10px;
+    height: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .swiper-slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
     transition: transform 400ms;
   }
 
-  .movie-images img:hover{
+  .swiper-slide img:hover{
     transform: scale(1.2, 1.3);
     cursor: pointer;
   }
+
+ 
