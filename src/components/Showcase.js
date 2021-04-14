@@ -25,15 +25,15 @@ function Showcase() {
   return (
     <div className="Showcase">
         <div className="showcase-text">
-            <h1>{movies.title}</h1>
-            <p className="limit-words">{movies.overview}</p>
+            <h1>{movies?.title || movies?.original_title}</h1>
+            <p className="limit-words">{movies?.overview}</p>
             <div className="showcase-btns">
               <button className="btn-play">Play</button>
               <button className="btn-info">More Info</button>
             </div>
         </div>
       <img
-        src={`${imgUrl}${movies.backdrop_path}`}
+        src={`${imgUrl}${movies?.backdrop_path}`}
         alt="movies"
         className="showcase-img"
       />
