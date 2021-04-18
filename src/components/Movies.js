@@ -5,8 +5,6 @@ import "swiper/swiper-bundle.css";
 import baseApi from "../services/baseApi";
 import "../components/Movies.css";
 
-//fix swiper on resize
-
 const imgUrl = "https://image.tmdb.org/t/p/original";
 
 SwiperCore.use([Navigation, Pagination ]);
@@ -30,27 +28,13 @@ function Movies({ title, url }) {
       <Swiper
         className="swiper-container"
         speed={700}
-        slidesPerView={2}
+        slidesPerView={"auto"}
         slidesPerGroup={2}
         navigation
         pagination
-        spaceBetween={20}
         observer={true}
         observeParents={true}
-        breakpoints={{
-          1024: {
-            slidesPerView: 5,
-            slidesPerGroup: 5,
-          },
-          900: {
-            slidesPerView: 4,
-            slidesPerGroup: 4,
-          },
-          768: {
-            slidesPerView: 3,
-            slidesPerGroup: 3,
-          },
-        }}
+        
       >
         {movies.map((movie) => (
           <SwiperSlide className="swiper-slide" key={movie.id}>
